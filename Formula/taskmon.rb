@@ -1,10 +1,10 @@
 class Taskmon < Formula
   desc "Task Monitor for the command line"
   homepage "https://github.com/jchas2/taskmon"
-  version "1.7.2"
+  version "1.7.3"
 
   url "https://github.com/jchas2/taskmon/releases/download/v#{version}/taskmon-#{version}-macos-arm64.tar.gz"
-  sha256 "feb193d65cd46df684900cfcecbe7ebe03db70ebe5b3451e5def082d657f0811"
+  sha256 "3b8d7dba597e166085869191df7c5d6d698110b70078630bb464e34ed3de3f6d"
 
   def install
     bin.install "taskmon"
